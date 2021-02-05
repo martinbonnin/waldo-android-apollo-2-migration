@@ -51,3 +51,6 @@ dependencies {
     implementation "com.apollographql.apollo:apollo-rx2-support:$apolloVersion"
 
 }
+apollo {
+    generateKotlinModels.set(true)
+}
